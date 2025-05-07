@@ -10,5 +10,6 @@ namespace WebAPI.Data
         }
 
         public DbSet<ApplicationUser> Users { get; set; }
+        public DbSet<ContactMe> ContactMes { get; set; }
     }
 }
